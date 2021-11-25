@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+
+.quote-box {
+  width: 500px;
+  background: #fff;
+  -webkit-box-shadow: 3px 2px 13px -1px rgba(0, 0, 0, 0.9);
+  box-shadow: 3px 2px 13px -1px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.quote-box h2 {
+  padding: 1rem 1rem 0 1rem;
+  text-align: center;
+}
+
+.text {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-style: italic;
+  color: #adb5bd;
+}
+
+.actions {
+  padding: 1rem;
+  /* background: #adb5bd; */
+  background: #f6f6f6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: inline-block; */
+  position: relative;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  line-height: 2em;
+  border-radius: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  /* background: #fff; */
+}
+
+.actions_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  line-height: 2em;
+  border-radius: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+
+.actions button svg {
+  font-size: 25px;
+  color: #000;
+}
+
+.about {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
